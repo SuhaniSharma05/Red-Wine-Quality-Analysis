@@ -50,56 +50,34 @@ This dashboard includes KPIs, donut charts, line plots, column charts, and custo
 
 #### 
 
-1\. Sum of Alcohol by Quality (Donut Chart)
+📌 *Average Alcohol by Quality*: Donut chart shows alcohol content increases with wine quality.
+
+
+- 📌 *Average Chemical Properties by Quality*: Multi-feature comparison (alcohol, sulphates, chlorides, sugar, etc.)
+
+
+- 📌 *Sulfur Dioxide vs pH*: Line chart shows peak at optimal pH.
+
+
+- 📌 *Fixed Acidity vs Density*: Slight upward trend observed.
+
+
+- 📌 *KPI Cards*: 
+
+
+  - Volatile Acidity: 843.99
+
+  - Total Sulfur Dioxide: 74K
+
+  - Free Sulfur Dioxide: 25K
+
+  - Residual Sugar: 4.06K
 
 
 
-* Wines with quality scores of 5 and 6 dominate alcohol content.
-* Quality 6 has the highest alcohol contribution (over 40%).
 
 
 
-2\. Sulfur Dioxide vs pH (Line Chart)
-
-
-
-* Sulfur dioxide spikes between pH 3.2 to 3.4, indicating sensitivity of preservatives to acidity.
-
-
-
-3\. Quality-Wise Contribution of Chemical Components (Column Chart)
-
-
-
-* Shows how alcohol, sulphates, residual sugar, chlorides, and citric acid vary with quality.
-* Higher quality wines show elevated levels of alcohol and sulphates.
-
-
-
-4\. Fixed Acidity vs Density (Scatter/Histogram)
-
-
-
-* Higher acidity is seen in denser wines.
-
-
-
-5\. Sulphates by Density (Pie Chart)
-
-
-
-* Color-coded by density to track sulphate contribution.
-
-
-
-6\. KPI Cards
-
-
-
-* Sum of Total Sulfur Dioxide: 74K
-* Sum of Residual Sugar: 4.06K
-* Sum of Citric Acid: 843.99
-* Sum of Free Sulfur Dioxide (Gauge): 25K out of 51K possible
 
 
 
@@ -109,21 +87,19 @@ This dashboard includes KPIs, donut charts, line plots, column charts, and custo
 
 #### **📌 Business Insights**
 
+✅ Higher quality wines (score 6–8) show significantly *higher alcohol content* on average.
 
 
-🔹 Alcohol is a key positive contributor to wine quality.
+- 🔻 Wines with *higher volatile acidity* tend to have *lower quality scores*.
 
 
-
-🔹 High free sulfur dioxide levels are generally associated with medium-quality wines.
-
+- 🔬 *Sulfur dioxide levels* peak at wines with pH levels between *3.2 and 3.4*.
 
 
-🔹 Moderate acidity and sugar levels support higher-quality ratings.
+- 📉 Wines with *higher density* tend to have slightly *higher fixed acidity*.
 
 
-
-🔹 pH range between 3.2–3.4 is optimal in wine preservation.
+- 🍬 Residual sugar content does *not strongly correlate* with wine quality.
 
 
 
@@ -135,9 +111,11 @@ This dashboard includes KPIs, donut charts, line plots, column charts, and custo
 
 
 
-* Improve product quality by balancing alcohol, acidity, and sulphates.
-* Monitor pH and sulfur dioxide carefully to avoid spoilage.
-* Wines with low quality might be enhanced by adjusting residual sugar and citric acid levels.
+🧪 Focus on *alcohol content* and *citric acid* for producing higher-quality wines.
+- 🚫 Monitor and control *volatile acidity* levels to avoid low ratings.
+- 🎯 Optimize *pH around 3.2–3.4* to balance sulfur dioxide and taste.
+- 🍷 Use this analysis to inform *product development, quality control, and pricing strategy*.
+
 
 
 
